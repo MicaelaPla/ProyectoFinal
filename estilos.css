@@ -1,0 +1,202 @@
+* {
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+/*full resets*/
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+.container {
+    width: 1200px;
+    /*contenedor interno tengo 1170*/
+    margin: 0 auto;
+    padding: 0 16px;
+}
+
+.dflex {
+    display: flex;
+    justify-content: space-between;
+}
+
+/*header*/
+.introduccion {
+    background: url(img/fondo-cafe.jpg) no-repeat center center fixed;
+    background-size: cover;
+    color: whitesmoke;
+    padding-bottom: 100px;
+}
+
+.introduccion h1 {
+    padding-top: 168px;
+    font-size: 150px;
+    margin-top: 0;
+    width: 900px;
+    margin-bottom: 30px;
+    text-shadow: 2px 12px 12px rgba(0, 0, 0, 0.25);
+}
+
+
+nav {
+    /*background-color: maroon;*/
+    padding-top: 0;
+    height: 100px;
+}
+
+nav p {
+    margin-top: 0;
+    padding-top: 0;
+    width: 330px;
+}
+
+nav ul {
+    width: 700px;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 40px;
+}
+
+nav ul li a {
+    color: snow;
+    font-size: 21px;
+}
+
+.introduccion .cta {
+    color: whitesmoke;
+    font-size: 24px;
+    text-align: center;
+    display: block;
+    width: 240px;
+    height: 80px;
+    line-height: 80px;
+    background: #B78181;
+    border-radius: 6px;
+}
+
+/*fin header*/
+
+/*section de productos*/
+
+section {
+    padding-bottom: 100px;
+}
+
+.encabezado {
+    padding-top: 84px;
+    background-color: white;
+}
+
+.encabezado h1 {
+    font-size: 64px;
+}
+
+.encabezado p {
+    /*margin:top right bottom left;*/
+    margin: 32px auto 100px auto;
+    font-size: 21px;
+    width: 726px;
+
+}
+
+.fila {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+article {
+    background-color: burlywood;
+    width: 312px;
+    padding-bottom: 50px;
+}
+
+article h2,
+article p {
+    padding-left: 14px;
+    padding-right: 14px;
+}
+
+.tinte {
+    background-color: brown;
+}
+
+.valor {
+    background-color: rgb(165, 159, 42);
+}
+
+.saturacion {
+    background-color: rgb(99, 134, 232);
+}
+
+.card {
+    width: 312px;
+    /*height: 450px;*/
+    background: #232224;
+    /* Shadow effect */
+    box-shadow: 16px 16px 35px rgba(0, 0, 0, 0.09);
+    border-radius: 30px;
+    color: white;
+}
+.card img{
+    border-radius: 8px 8px 0px 0px;
+}
+#galeria{
+    background-color: #333;
+    color: salmon;
+    padding: 50px 0 30px 0;
+}
+
+.card2 {
+    width: 300px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+.card2 img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.card2 h3 {
+    margin-top: 10px;
+}
+
+.card2 p {
+    margin-top: 5px;
+}
+
+.card2 a {
+    display: block;
+    margin-top: 10px;
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/*fin section de productos*/
+footer {
+    padding: 10px 0;
+    background-color: rgb(29, 10, 47);
+    color: lightpink;
+    text-align: center;
+}
+
